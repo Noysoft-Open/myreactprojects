@@ -3,29 +3,48 @@ import './App.css';
 
 function MyButton(){
   return (
-    <button>I'm actually a Scientist.</button>
+    <button className="Identity">I'm actually a Scientist.</button>
   );
 }
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-          <h1>Welcome to Noysoft</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <div className="MyLogo">
+            <img src={logo} className="App-logo" alt="logo" />
+          </div>
+          <div className="HeaderTitle">
+            <h1>Welcome to Noysoft</h1>
+          </div>
       </header>
-      <div>
-        <h2>Components</h2>
+
+      <div className="Component-1">
+        <h2>Component 1</h2>
         <MyButton />
       </div>
+      
+      <div className="Component-2">
+        <h2>Component 2</h2>
+      </div>
+
+      <div className="Component-2">
+        <h2>Component 2</h2>
+      </div>
+      
+      <div className="Component-2">
+        <h2>Component 2</h2>
+      </div>
+      
+      <div className="Component-2">
+        <h2>Component 2</h2>
+      </div>
+      
+      <div className="Component-2">
+        <h2>Component 2</h2>
+      </div>
+    
     </div>
   );
 }
